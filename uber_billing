@@ -1,3 +1,5 @@
+#uber_billing
+
 sp=int(input("Enter Starting Point: "))
 ep=int(input("Enter Starting Point: "))
 diff=ep-sp
@@ -7,15 +9,15 @@ print("1.AUTO \n2.Prime \n3.SUV")
 while(1):
     ride=int(input("Select "))
     if(ride==1):
-        print("amount" ,diff*10)
+        print("Total Amount" ,diff*10,"Rs")
         break
     elif(ride==2):
-        print("amount" ,diff*20)
+        print("Total Amount" ,diff*20,"Rs")
         break
     elif(ride==3):
-        print("amount" ,diff*30)
+        print("Total Amount" ,diff*30,"Rs")
         break
     else:
         print("Invalid ride")
     
-print("Your Ride is on the way") 
+print("Your Ride is on the way")  
