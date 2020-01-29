@@ -1,0 +1,14 @@
+import random
+n=random.randint(0,99)
+guess=int(input("Enter the integer 1 to 99: "))
+while n!="guess":
+    print 
+    if guess < n:
+        print("guess is low")
+        guess=int(input("Enter the integer 1 to 99: "))
+    elif guess > n:
+        print("guess is high")
+        guess=int(input("Enter the integer 1 to 99: "))
+    else:
+        print("your guess is Right")
+        break
