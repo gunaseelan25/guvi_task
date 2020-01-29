@@ -1,7 +1,7 @@
 #uber_billing
 
 sp=int(input("Enter Starting Point: "))
-ep=int(input("Enter Starting Point: "))
+ep=int(input("Enter Ending Point: "))
 diff=ep-sp
 print(diff)
 print("choose Your Raid")
