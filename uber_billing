@@ -1,0 +1,21 @@
+sp=int(input("Enter Starting Point: "))
+ep=int(input("Enter Starting Point: "))
+diff=ep-sp
+print(diff)
+print("choose Your Raid")
+print("1.AUTO \n2.Prime \n3.SUV")
+while(1):
+    ride=int(input("Select "))
+    if(ride==1):
+        print("amount" ,diff*10)
+        break
+    elif(ride==2):
+        print("amount" ,diff*20)
+        break
+    elif(ride==3):
+        print("amount" ,diff*30)
+        break
+    else:
+        print("Invalid ride")
+    
+print("Your Ride is on the way") 
